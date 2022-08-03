@@ -16,4 +16,4 @@ The original subject of this project was to compare the performance of a simple 
 but we ended up also designing the subwalk solver to improve performance over the usual MC solver.
 
 The ``report`` directory contains a Jupyter Notebook, a poster and a slideshow which we created as coursework,
-and were designed to explain the algorithms and their performances. Note that these reports are in Spanish, as is the course.
+and were designed to explain the algorithms and their performances. Note that these reports are in Spanish, as is the course. You may also view the Jupyter Notebook report as HTML [here](https://johnny-godoy.github.io/poisson-fast-mc/).
