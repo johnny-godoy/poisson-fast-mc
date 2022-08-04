@@ -11,9 +11,9 @@ pip install git+https://github.com/johnny-godoy/poisson-fast-mc.git
 After that, you can import solvers from the following files:
 
 * ```monte_carlo_solvers.py``` Uses the usual implementation, obtained from [here](https://github.com/s-ankur/montecarlo-pde). It also adds bayesian estimations for the probability of an endpoint being reached from a starting point.
-* ```subwalk_monte_carlo_solvers.py``` Uses our own custom implementation which improves the runtime by reusing every subwalk of the generated random walks.
+* ```subwalk_monte_carlo_solvers.py``` Uses our own custom implementation which improves runtime by reusing every subwalk of the generated random walks.
 * ```finite_difference_solver.py``` The usual finite difference solver.
-* ```hybrid_solver.py``` A hybrid solver that uses the subwalk solver to obtain a primer, and then uses conjugate gradient to solve the finite difference system.
+* ```hybrid_solver.py``` A hybrid solver that uses the subwalk solver to obtain a primer, and then uses conjugate gradient iterations starting from the primer to solve the finite difference system.
 
 With the Python code:
 
