@@ -1,5 +1,5 @@
 jupyter==1.0.0
 matplotlib==3.2.2
-numpy==1.21.6
+numpy==1.22.0
 scipy==1.10.0
 tabulate==0.8.10
